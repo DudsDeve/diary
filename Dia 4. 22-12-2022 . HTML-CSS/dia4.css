@@ -1,0 +1,88 @@
+ Dia 4 - 22/12/2022 - 00:00
+
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&display=swap');
+ /* SEMPRE É NECESSÁRIO COLOCAR @IMPORT e colcoar um link da fonte */
+ /* O preview do CSS só é visualizado */
+h1 { /* o <h1> no caso serve como LOCALIZADOR para o CSS achar no HTML */
+    color: blue;
+    border: 1px solid red;
+    font-family: 'Martian Mono', monospace; 
+/*o font-family, também é uma maneira de se importar fontes   */
+}
+
+h2 {
+    color: blue;
+}
+h2 strong { 
+    color: red
+}
+h2 strong em {
+    color: orange
+}
+h1.title#my-title {
+color: green ;
+}
+/* quanto mais específico melhor é  */
+!important sobrescreve qualquer outra regra
+--------------Regras--------------------
+@import url( ); 
+/* @import serve para incluir um CSS externo */
+
+ 
+    background properties  . /* voce pode escrever assim */
+    background-color: #000;
+    background-image: url(images/bg.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+
+    background shorthand . /* ou resumir desse jeito */
+    background: #000 url(images/bg.gif) no-repeat left top;
+
+    font properties ./* voce pode escrever assim */
+    font-style: italic;
+    font-weight: bold;
+    font-size: .8em;
+    line-height: 1.2;
+    font-family: Arial, sans-serif;
+
+    font shorthand . /* ou resumir desse jeito */
+    font: bold italic .8em/1.2 Arial, sans-serif;
+    /*  a ORDEM não importa */
+    ------Função-------
+    @import url();
+
+    /* FERRAMENTA IMPORTANTE PARA INSPECIONAR PÁGINAS E APRENDER */
+    DEVTOOLS = vai em qualquer página e pressiona 
+    (Control + Shift + C )
+
+    ------Unidades Comuns----------
+    /* TIPOS NÚMERICOS */ 
+
+<integer> - número inteiro como -10 ou 223
+<number> - número decimal como -2.4, 64 ou 0.234
+<dimension> - é um <number> com uma unidade junto: 90deg, 2s, 8px
+<percentage> - representa uma fração de outro número: 50%
+
+/* Unidades */ 
+<length> - é um dos mais usados no CSS e representa um valor de distância: px, em, vw
+<angle> - representa um ângulo: deg, rad, turn /* Deg = graus =360 é um circulo*/
+<time> - representa um tempo: s, ms
+<resolution> - representa resoluções para dispositivos:
+
+/* Distancia */ 
+ px = pixel = é o mais recomendado 
+
+ /* Distancia relativa */
+| em       | Tamanho da font do elemento pai               |
+| rem      | Tamanho da font do elemento raiz (root/html)  | 
+| vw       | 1% da viewport wid                            |  
+| vh       | 1% da viewport height
+ 
+(HTML line 79)
+
+-Continua os testes no (dia4-2.css)- 
+Por algum motivo que eu não sei, a (dia4.css) ja não está mais aceitando mudanças,
+deve haver algum conflito de arquivos
+
+--------dia4-2.css----------
+

@@ -1,0 +1,74 @@
+ /* Não preciso usar o @import novamente, se eu abro outro .CSS,
+para o mesmo Html  */
+
+div { 
+    font-size: 300px; /* assim funciona o pixel */
+    color: aqua ; 
+    background-color: black;
+    width: 100%; /* Largura*/
+    height: 20%;  /* altura */
+}
+p { 
+    font-size: 1000%; /* da para fazer com porcentagem tambem */ 
+    background-color: chartreuse;
+    width: 50%;
+    height: 100%;
+}
+
+body { 
+   
+    width: 50 %; /* quer dizer que todo <body> que estiver dentro do HTML
+    entra */
+    /*  no caso a proporção diminui pq SOMA, exemplo: fica 50% de 50% ou a metade da metade*/
+}
+
+.box {
+   
+    background-image: url(https://source.unsplash.com/random);
+    height: 200px;
+    width: 400px;
+    background-repeat: no-repeat; /* não repitir o fundo */
+    background-position:center; /* para centralizar / mover a imagem para algum lado da box*/
+    margin: 0; /* margin serve para tirar ou adicionar margens/espaçoes */
+   
+}
+.box ::after { /* .box::after = serve para botar algo DEPOIS da CAIXA*/ 
+    content: " Feliz natal !!!"; /* content = para botar algum conteúdo*/
+    color: white;
+    height: 100px;
+    width: 100px;
+}
+
+button 
+{
+   
+    background-color: white;
+    font: italic;
+    height: 150px;
+    width: 200px;
+    margin: ;
+    font-size: 300%;
+    content: " a mor "
+    
+
+}
+
+---------- Box Model ------------
+/* fazer LAYOUTS para web */
+/* cada elemento na minhapágina ser[a uma caixa */
+Na caixa temos os seguintes itens : /* maior -> menor / mais de fora-> para dentro */
+
+Espaços fora da caixa → /* MARGIN*/
+Bordas → border /* BORDAS*/
+Preenchimento interno → /* PADDING*/
+Conteúdo → /* CONTENT*/ 
+/* Tamanho (largura x altura) → width | height */
+
+----------------------O QUE APRENDI HOJE -----------------------------------------------------
+ -Aprendi Css, não vou colocar tudo aqui, pois hoje é natal e estou muito cansado,
+ mas amanhã eu volto com a programação normal 
+
+
+
+
+

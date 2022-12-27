@@ -1,0 +1,15 @@
+----------Box Model-------------
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&display=swap');
+
+body{ /*SEMPRE TEM QUE TER O BODY*/
+    height: 100vh;
+}
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 10%;
+    padding: 0 20px; /* 20PX quer dizer que são 20px de sobra de cada lado, somando 40px*/
+    
+/* mas se eu adiciono box-sizing:border-box ele obedece a minha HEIGHT e minha WEIDTH */
+}

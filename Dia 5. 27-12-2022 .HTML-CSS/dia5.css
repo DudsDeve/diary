@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&display=swap');
+
+/* Como escrever em cima de uma imagem  */
+
+body { /* é necessário para dizer o tamanho da página*/
+    height: 100vh;
+    margin: 0;
+
+}
+.box { 
+    height: 200px;
+    width: 200px;
+    background-image: url(https://source.unsplash.com/random);
+   
+}
+.box::after {
+
+    content: "olá mundo";
+    color: white;
+    letter-spacing: 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&display=swap');
+
+----------BLOCK / INLINE-------------
+Block : <p>,<div>, <section> , TODOS os headings :<h1>,<h2> ...
+/* quer dizer que um vai ficar em cima do outro */
+Inline : <a>,<strong>,<span>,<em>
+/* um vai ficar ao lado do outro  */
+/* INLINE, não respeita ALTURA nem LARGURA */
+body {
+    height: 100vh;
+    width: 100vh;
+}
+
+div
+{
+    height: 100px;
+    width: 10px;
+    border: 1px solid red 
+}
+
+strong {
+    height: 100px; /* como STRONG, é um inline, ele não vai respeitar o heigth/width */
+    width: 10px; /* como STRONG, é um inline, ele não vai respeitar o heigth/width */
+    border: 1px solid green;
+/*  mas se eu botar DISPLAY:block, o INLINE assume papel de BLOCK e vice versa */
+    display: block;
+}

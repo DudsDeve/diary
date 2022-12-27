@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&display=swap');
+
+
+---------------MARGIN-----------------------
+
+
+As MARGINS = margens, são contadas no sentido HORÁRIO:
+1- margin-top = margem do topo = de cima
+2- margin-right = margem da direita 
+3- margin-bottom = margem de baixo
+4- margin-left = margem da esquerda
+/* igual um relogio */
+MAS no shorthand , ele ficaria assim :
+margin: 12px 16px 10px 4px; /* TOP = 12px | RIGHT = 16px | BOTTOM = 10px | LEFT = 4px */
+margin: 12px 16px 0; /* TOP = 12px | RIGHT = 16px | BOTTOM = 0px | LEFT = 16px  */ 
+margin: 8px 16px; /* TOP = 8px | RIGHT = 16px | BOTTOM = 8px | LEFT = 16px */
+margin: 8px; /* TOP = 8px | RIGHT = 8px | BOTTOM = 8px | LEFT = 8px */
+body {
+    height: 100vh;
+    width: 100vh;
+}
+
+div,section {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    margin: 12px 30px 10px 4px ;
+}
+.m1 { 
+        border: 1px solid green;
+        width: 100px;
+        height: 100px;
+        margin: 12px 16px 0 ;
+    }
+.m2 {
+    border: 1px solid rgb(19, 0, 128);
+        width: 100px;
+        height: 100px;
+        margin: 8px 16px ;
+    }
+
+.m3 {
+    border: 1px solid rgb(247, 84, 9);
+        width: 100px;
+        height: 100px;
+        margin: 100px ;
+        border: 20px solid red;
+        border-top: dotted  green 9px;
+}
+-------------------PADDING-------------
+Preenchimento 
+
+/* MESMAS PROPRIEDADES DO MARGIN */
+
+------------------BODERDER---------------- exemplos linha 47/48
+value: <border-style> | <border-width> | <border-color>
+
+style: solid | dotted | dashed | double | groove | ridge | inset | outset
+width: <length>
+color: <color>
+/* SIte para olhar BORDAS : https://developer.mozilla.org/en-US/docs/Web/CSS/border */

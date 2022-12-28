@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&display=swap');
+
+/* ----------------FLEX----------------- */
+body {
+    height: 100vh;
+    margin: 0;
+}
+.conteiner {
+    display: flex; /* quando vc aplica {display:flex} os itens ficam um do lado do outro*/
+    flex-direction: c olumn; /* flex-direction:column = ele volta a ficar em colunas*/
+    justify-content: space-between;/*justify-content: space-between = da um espaço entre os itens*/
+}
+.box {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+}
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}

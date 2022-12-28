@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&display=swap');
+
+/* -------------------GRID--------------------- */
+body {
+    height: 100vh;
+    margin: 0;
+    display:grid;
+    grid-template-areas: 
+     "header header"
+     "main aside "
+     "footer footer";
+    grid-template-rows: 30px 1fr 40px; /*1fr significa que o MEIO vai ser FLEXIVEL quando mexer a página*/
+    grid-template-columns: 1fr 80px;
+}
+header {
+    background-color: green;
+    grid-area:header;
+}
+main {
+    background-color: red;
+    grid-area: main;
+}
+aside {
+    background-color: blue;
+    grid-area: aside;
+}
+footer {
+    background-color: grey;
+    grid-area: footer;
+}

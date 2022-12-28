@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&display=swap');
+/* FONTES */
+p {
+    font-family: 'Times New Roman', Times, serif; /*fontes SERIF, possuem uma dobrinha embaixo/linhas embaixo*/
+    /* se ele não acha a primeira opção, ele pula pra segunda que pula pra terceira */
+    font-weight: bold; /*Bold deixa ela mais forte*/ 
+    /*mas não é toda fonte que aceita isso */
+    font-size: 50px;
+    text-decoration:underline greenyellow; /*linha que fica abaixo*/
+    text-align: center;/* o texto fica no centro*/
+
+
+
+}
+.sans {
+    font-family: sans-serif; /* a fonte SANS não tem dobrinhas */
+    font-style: it alic; /*deixa a letra deitada, MESMA COISA que adicionar <em> no HTML*/
+    text-decoration: overline red;/* linha que fica acima*/
+    text-shadow: 1px 1px 1px red,
+	       2px 2px 5px green; /* se usa : offset-x | offset-y | blur-radius | color */
+}

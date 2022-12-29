@@ -1,0 +1,43 @@
+------------INPUT-----------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <!-- FORM -->
+ <form id="contato" action="" method="GET" > <!-- method= GET/POST = GET: da para ver dados no URL,POST : esconde os dados-->
+<!-- BUTTON -->
+<button type="submit"> Enviar</button> <!-- type="Submit"= ele envia o formulário-->
+<input type="text" value="Algum nome"> <!-- pode deixar o value vazio tambem-->
+<button type="reset"> LIMPAR</button> <!-- type="reset"= vai resetar o input-->
+<button disabled> Enviar</button> <!-- disable = desativa o botão-->
+</form>
+ <!-- FIELDSET -->
+ <!-- posso também colocar também o <fieldset> fora do <form>, 
+    MASSSSS preciso adicionar o ID=""--> 
+
+   <fieldset form="contato" d isabled > <!-- se colocar DISABLE, ele não funciona mais-->
+    <!-- LEGEND -->
+        <legend>Contato</legend><!-- da um nome para a box do fieldset-->
+        <!-- LABEL -->
+        <label for="">nome</label>
+        <!-- INPUT -->
+        <input type="text">
+    </fieldset><!-- Agrupa em campos elementos com mesmo propósito-->
+    <div> </div>
+    <label >
+        nome
+        <input type="text">  <!-- <input> não tem tag de fechamento, mas sempre tem um TYPE-->
+        <input type="color">
+    </label>
+
+
+
+</body>
+</html>

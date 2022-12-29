@@ -1,0 +1,57 @@
+-------------------<!-- Input -->-------------------
+
+<input type="text">
+<p></p>
+<input type="week">
+<p></p>
+<input type="color">
+<p></p>
+<input type="checkbox">
+<p></p>
+<input type="file">
+<p></p>
+<input type="password">
+<p></p>
+<input type="email" autocomplete="email"> <!-- ele vai sugerir autocompletar com email que vc usa-->
+<p></p>
+
+----------------<!-- Input + form -->---------------
+
+<form id="meu-form"> </form>
+<input name="email" type="email" form="meu-form"> <!-- para quando
+quiser linkar o input ao form, usar o form="" igual ao id do form-->
+
+---------------<!-- Input + password -->---------------
+
+<form action="">
+    <input type="password"
+    minlength="7"    
+    maxlength="10"
+    size="15">
+    <!-- min/max length = Número min/max de caracteres que eu quero -->
+    <!-- size = determina o tamanho do campo-->
+    <button type="submit">Enviar</button>
+</form>
+<p></p>
+
+---------------<!-- Input + password + pattern -->-----------------
+
+<form action="">
+    <input type="password"
+    placeholder="coloque sua senha "
+    pattern="[0-9a-fA-F] {4,8}"
+    title="No minimo 4 caracteres, no máximo 8 caracteres, AU AU AU AU"
+    required>
+
+        <!-- PATTERN = senhas de ALTA SEGURANÇA-->
+    <!-- quero dizer números de 0 a 9 //
+         somente letras de a-f//
+         somente letras de A-F//
+        no mínimo 4 e no máximo 8 caracteres -->
+        <!-- REQUIRED = é necessário que preencha o campo -->
+
+    <button type="submit">Enviar</button>
+    <p></p>
+
+
+</form>

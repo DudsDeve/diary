@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&display=swap');
+
+li:hover { /* :hover= deixa a letra colorida quando passa o mouse em cima*/
+    color: red;
+}
+
+button + button { /* margin ENTRE os botões */
+    margin-left: 50px;
+}
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes REFERENCIAS */
